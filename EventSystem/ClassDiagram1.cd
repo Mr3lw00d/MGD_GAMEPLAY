@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AuctionRegistryEventPublisher&lt;T&gt;">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAACIAAAIAAAAAAAAAA=</HashCode>
+      <FileName>RegistryEventPublisher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistryEventPublisher&lt;void&gt;">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAIAAAAAAAAAAEAACIAAAIAAAAAAAAAA=</HashCode>
+      <FileName>RegistryEventPublisher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistryEventPublisher&lt;const char*&gt;">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAIAAAAAAAAAAEAACIAAAIAAAAAAAAAA=</HashCode>
+      <FileName>RegistryEventPublisher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABAAAACQAAAAAAAAAAEAAAAAABAAAAA=</HashCode>
+      <FileName>Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistryEventHandler&lt;Class, ParamType&gt;">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="RegistryEventHandler&lt;Class, ParamType&gt;::CallbackFunc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RegistryEventHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAIAAAAAAAAAAAAAAQCEAAAQAAAIAAAAAA=</HashCode>
+      <FileName>RegistryEventHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistryEventHandler&lt;Class, void&gt;">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="RegistryEventHandler&lt;Class, void&gt;::CallbackFunc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RegistryEventHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAIAAAAAAAAAAAAAAQCEAAAQAAAIAAAAAA=</HashCode>
+      <FileName>RegistryEventHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistryEventHandler&lt;Class, const char*&gt;">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="RegistryEventHandler&lt;Class, const char*&gt;::CallbackFunc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RegistryEventHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAIAAAAAAAAAAAAAAQCEAAAQAAAIAAAAAA=</HashCode>
+      <FileName>RegistryEventHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventRegistry">
+    <Position X="1" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="EventRegistry::EventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EventRegistry.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="EventRegistry::EventsMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EventRegistry.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="EventRegistry::EventsMapIt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EventRegistry.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAABAAAABACAAAAAAAAAAAAAAAAABAAAAg=</HashCode>
+      <FileName>EventRegistry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
