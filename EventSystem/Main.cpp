@@ -250,6 +250,7 @@ class Bidder {
 	int CashAmount;
 	int iButtonRequested = 0;
 
+
 	AuctionRegistryEventPublisher<Bid> m_oEventPublisher;
 public:
 	Bidder(std::string _stBidderIdentifier,int _BidderID,int _CashAmount) : 
